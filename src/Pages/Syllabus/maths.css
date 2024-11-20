@@ -1,0 +1,38 @@
+.syllabus-container {
+    padding: 2rem;
+    text-align: center;
+    color: black;
+}
+
+.syllabus-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.syllabus-card {
+    width: 250px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.syllabus-card:hover {
+    transform: translateY(-5px);
+    .sub-card{
+        margin-top: -50px;
+    }
+
+}
+
+.card-img{
+    height: 100px;
+    width: 100%;
+}
+.sub-card{
+    background-color: rgb(255, 255, 255);
+    margin-top: -30px;
+    padding: 10px;
+    position: relative;
+
+}

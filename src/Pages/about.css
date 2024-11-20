@@ -1,0 +1,110 @@
+.about-us-container {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.introduction, .mission-vision, .core-values, .team, .contact-info {
+    margin-bottom: 40px;
+}
+
+
+.team-member {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 50px;
+    justify-content: center;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.team-member p{
+    margin-top: -20px;
+    font-size: 12px;
+}
+
+
+
+.background-image-section {
+    position: relative;
+    width: 100%;
+    background-image: url('../Assets/library-bkground.jpeg');  
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;  
+    text-align: center;
+}
+.Aboutus-intro{
+    text-align: center;
+    padding: 2% 15% 5% 15%;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 100%;
+}
+
+
+.overlay-aboutus {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);  
+    border-radius: 8px;
+    width: 100%;  
+    height: 100%;
+
+}
+.overlay-aboutus h1{
+    padding-top: 60px;
+}
+
+.overlay-aboutus h1 , .overlay-aboutus h2 {
+    
+    font-size: 2.0em;
+    margin: 0;
+    padding-bottom: 1px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.overlay-aboutus p {
+    font-size: 0.9em;
+    margin-top: 10px;
+
+}
+.mission-vision h2{
+    padding-top: 5%;
+
+}
+
+.mission-vision p{
+    text-align: center;
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 10%;
+}
+
+.core-values{
+    color: #fff;
+}
+
+
+.core-values p{
+    width: 200px;
+}
+
+.ValuesCard{
+    display: inline-flex;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    height: 280px;
+    width: 300px;
+}

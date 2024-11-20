@@ -1,0 +1,64 @@
+.p-menubar .p-menubar-start h1 {
+    font-size: 2.0 rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.p-menubar{
+    display: inline-block;
+
+}
+.card{
+    background-color: black;
+    padding-top: 20px;
+    color: white;
+}
+.card a{
+    color: white;
+}
+
+.p-menuitem-content{
+    padding: 20px;
+}
+
+
+.p-submenu-list{
+    background-color: black;
+    padding: 20px;
+    z-index: 99;
+
+}
+.p-menuitem-icon{
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+
+/*-------------- Animation----------*/
+
+/* Underline effect when hover over Menubar items */
+.p-menubar .p-menuitem-link {
+    position: relative;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+/* Colored underline on hover */
+.p-menubar .p-menuitem-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px; /* Thickness of the underline */
+    background-color: #007bff; 
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect */
+.p-menubar .p-menuitem-link:hover::after {
+    transform: scaleX(1); /* Expand underline on hover */
+}
+.p-menubar a{
+    text-decoration: none;
+}
