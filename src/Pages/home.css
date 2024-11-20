@@ -81,6 +81,9 @@
 .p-carousel-next{
     right: 0;
 }
+.p-carousel-content{
+    overflow: hidden;
+}
 
 /* Media query for small screens */
 @media (max-width: 768px) {
