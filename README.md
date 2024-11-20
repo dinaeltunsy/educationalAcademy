@@ -23,4 +23,5 @@ A web application for learning management.
 ## Simple Landing Page
   The main aim of a simple landing page to be self-directing the user.
 
-![Screenshot_20-11-2024_15371_localhost](https://github.com/user-attachments/assets/5beb435e-9d3a-42b9-9d5c-e003c94067e7)
+
+![Screenshot_20-11-2024_15371_localhost](https://github.com/user-attachments/assets/6478c98c-269d-43b7-be10-51a6134df1fd)
