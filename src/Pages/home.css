@@ -69,6 +69,18 @@
 .card-title{
     color: rgb(59, 59, 59);
 }
+.p-carousel-prev, .p-carousel-next{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    z-index: 99;
+}
+.p-carousel-prev{
+    left: 0;
+}
+.p-carousel-next{
+    right: 0;
+}
 
 /* Media query for small screens */
 @media (max-width: 768px) {
