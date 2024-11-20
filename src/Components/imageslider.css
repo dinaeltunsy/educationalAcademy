@@ -39,9 +39,7 @@
 
 /* Media query for small screens */
 @media (max-width: 768px) {
-    .overlay{
-        height: min-content;
-    }
+    
     .overlay h1{
         font-size: 15px;
     }
