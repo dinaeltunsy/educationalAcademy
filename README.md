@@ -24,4 +24,5 @@ A web application for learning management.
   The main aim of a simple landing page to be self-directing the user.
 
 
-![Screenshot_20-11-2024_15371_localhost](https://github.com/user-attachments/assets/6478c98c-269d-43b7-be10-51a6134df1fd)
+![Screenshot_20-11-2024_17526_localhost](https://github.com/user-attachments/assets/d265827c-1da1-415b-9051-98ccf4982c60)
+
